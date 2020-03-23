@@ -6,7 +6,11 @@ namespace PrimerProyecto
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Persona jugador = new Persona("Bob", "Kunga");
+            Console.WriteLine($"El jugador llamado {jugador.GetName()} {jugador.GetSirname()}, ha jugado {jugador.Lanzar()}");
+
         }
+       
+
     }
 }
